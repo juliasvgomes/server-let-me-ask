@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1752345810270,
+      "tag": "0000_reflective_otto_octavius",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752580081358,
+      "tag": "0001_pretty_pestilence",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752601279090,
+      "tag": "0002_known_rumiko_fujikawa",
+      "breakpoints": true
+    }
+  ]
+}
