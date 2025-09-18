@@ -1,19 +1,21 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "_version": "22.0.0",
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "NodeNext",
-    "lib": ["ES2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
-    "moduleResolution": "Node16",
+    "lib": [
+      "es2024",
+      "ESNext.Array",
+      "ESNext.Collection",
+      "ESNext.Iterator"
+    ],
+    "module": "nodenext",
+    "target": "es2022",
+    "noEmit": true,
     "allowImportingTsExtensions": true,
-
-    "outDir": "dist",              // 👈 onde vai sair o código compilado
-    "rootDir": "src",              // 👈 onde estão seus arquivos fonte .ts
-    "noEmit": false,               // 👈 necessário para gerar os arquivos
     "strict": true,
-    "strictNullChecks": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
-  },
-  "include": ["src"]
+    "skipLibCheck": true,
+    "moduleResolution": "node16",
+    "strictNullChecks": true
+  }
 }
