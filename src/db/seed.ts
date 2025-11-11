@@ -23,3 +23,4 @@ await sql.end();
 
 //  biome-ignore lint/suspicious/noConsole: only used in dev
 console.log('Database seeded');
+console.log("env.DATABASE_URL")
